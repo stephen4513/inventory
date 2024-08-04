@@ -1,0 +1,50 @@
+.bigcontainer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.bigcontainer h1{
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 45px;
+
+}
+
+.bigcontainer button{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    background-color: #5b48f1;
+    color: white;
+    border-radius: 10px;
+}
+.bigcontainer button :hover{
+    background-color: #362e77;
+}
+
+.pantryList{
+    
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    grid-gap: 20px; /* Adjust the gap between cards as needed */
+    justify-content: center; /* Center the grid items */
+    align-items: start; /* Align items at the start of each row */
+    height: 60vh;
+    width: 30vw;
+    overflow-y: auto;
+    padding: 10px; /* Optional: Add padding */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+            
+}
+
+.divider{
+    padding-bottom: 10px;
+}
