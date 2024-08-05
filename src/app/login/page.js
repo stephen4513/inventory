@@ -30,7 +30,7 @@ export default function Login() {
         <img src="/inventory.jpg" alt="inventory" />
       </div>
       <div className={styles.right}>
-        <h2>Inventory Managment System</h2>
+        <h2>Inventory Management System</h2>
         <p>Sign up or Log in with <span className={styles.google1}>G</span ><span className={styles.google2}>o</span><span className={styles.google3}>o</span><span className={styles.google4}>g</span><span className={styles.google5}>l</span><span className={styles.google6}>e</span></p>
         <button onClick={handleSignIn}>Sign in</button>
       </div>

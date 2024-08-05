@@ -8,7 +8,7 @@ export const config = {
 };
 
 const client = new vision.ImageAnnotatorClient({
-  credentials: JSON.parse(process.env.GOOGLE_CREDENTIALS),
+  keyFilename: '/home/steph/projects/website/pantry/pantry-431501-3a97db732ede.json',
 });
 
 export default async (req, res) => {
